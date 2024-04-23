@@ -1,0 +1,56 @@
+
+.navmenu{ 
+    background: linear-gradient(90.06deg, rgba(92, 92, 92, 0.81) 0%, #525252 100%);
+  box-shadow: 0px 0px 100px 10px rgba(92, 92, 92, 0.6);
+  top: 80px;
+  position: absolute;
+    height: 50px;
+    width: 100% !important;
+    margin: auto;
+  }
+  
+  .navmenu ul {
+    width: 1200px;
+    padding-top: 10px;
+    margin: auto;
+  }
+  
+  .navmenu ul li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .navmenu ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #a7a7a7;
+  transition: all .3s ease-in-out;
+  }
+  .navmenu ul li a:hover{
+    color: rgba(18, 230, 14, 0.61);
+  }
+nav {
+  width: 100%;
+}
+nav .navmenu {
+  width: 1200px;
+}
+
+nav .navmenu ul li {
+  display: inline;
+}
+
+nav .navmenu ul li {
+  margin: auto;
+}
+nav .navmenu img {
+  margin-top: -5px;
+}
+
+.navmenu ul .now a{
+  color: rgba(18, 230, 14, 0.61);
+}

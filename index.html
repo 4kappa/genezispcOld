@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Grenze:wght@300;900&family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link type="image/x-icon" href="assets/images/logobig.png" rel="shortcut icon">
+    <title>Genezis PC</title>
+    <script src="https://kit.fontawesome.com/2f7bb8b74f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+<nav>
+  <div class="navmenu">
+    <ul>
+      <li><a href="#"><img src="assets/images/logonav.png" alt=""></a></li>
+      <li><a href="pc.html">Ремонт</a></li>
+      <li><a href="upgrade.html">Апгрейд</a></li>
+      <li><a href="buy.html">Продажа ПК</a></li>
+      <li><a href="zapis.html">Записаться в центр</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<section class="main">
+<div class="content">
+  <h2>
+    <strong>Ремонт</strong> компьютерной техники в <strong>Оренбурге</strong>,<br> с гарантией <strong>3 года</strong>,<br> по <strong>низким</strong> ценам.
+  </h2>
+</div>
+<div class="zayvka">
+  <h6 class="age">лет</h6>
+  <div class="form">
+    <form class="topBefore" id="form" action="zayvka.php" method="POST">
+      <ul>
+        <li>
+            <input id="name" name="user_name" type="text" placeholder="Как вас зовут?" required>
+        </li>
+        <li>
+            <input class="phone" id="phone" name="user_phone" maxlength="20" type="text" placeholder="Номер вашего телефона" required>
+        </li>
+        <li>
+          <input class="name" id="age" oninput="changeHandler(this)" name="user_age" type="text" maxlength="2" placeholder="Возраст техники" required>
+      </li>
+      <li>
+        <select name="user_select" required>
+          <option id="selected" label="Ваша проблема?" value="1"></option>
+          <option id="help" selected>Устройство не включается </option>
+          <option id="bezops">На устройстве нету изображения</option>
+          <option id="tehpod">Неккоректное изображение</option>
+          <option id="helpuser">Попала жидкость</option>
+          <option id="sispo">Не заряжается ноутбук</option>
+          <option id="monitit">Не работает клавиатура</option>
+          <option id="servshd">Не работает звук</option>
+          <option id="bizproect">Не работает USB</option>
+          <option id="monitit">Не работает тачпад</option>
+          <option id="servshd">Устройство зависает</option>
+          <option id="bizproect">Проблема известна</option>
+          <option id="other">Другое</option>
+      </select>
+    </li>
+    </ul>
+    <input id="submit" type="submit" value="Заказать мастера">
+    </form>
+  </div>
+  
+</div>
+
+</section>
+
+<section class="mountins">
+  <section class="yslygi" id="ysl"> 
+    <h2>Наши услуги</h2>
+    <div class="items">
+       <ul>
+        <li>
+          <a href="pc.html">
+            <div class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="137" height="122" fill="none" viewBox="0 0 137 122">
+                <path fill="#fff" d="M125.583 0H11.417C5.114 0 0 5.123 0 11.438v76.25c0 6.314 
+                5.114 11.437 11.417 11.437h45.666l-3.805 11.437H36.153a5.7 5.7 0 0 0-5.709 
+                5.719A5.7 5.7 0 0 0 36.153 122h64.694a5.7 5.7 0 0 0 5.709-5.719 5.7 5.7 
+                0 0 0-5.709-5.719H83.722l-3.805-11.437h45.666c6.303 0 11.417-5.123 
+                11.417-11.438v-76.25C137 5.123 131.886 0 125.583 0Zm-3.805 
+                83.875H15.222V15.25h106.556v68.625Z"/>
+              </svg>
+              <h3>Ремонт ПК</h3>
+              <p>Выполняем весь спектр услуг по ремонту вашего персонального компьютера</p>
+              <h4>Подробнее</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="pc.html">
+            <div class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="136" height="109" fill="none" viewBox="0 0 136 109">
+                <path fill="#fff" d="M132.6 88.563H81.077c-.157 4.217-3.126 6.812-6.957 
+                6.812H61.2c-3.972 0-7.017-3.72-6.964-6.813H3.4c-1.87 0-3.4 1.533-3.4 
+                3.407v3.406C0 102.869 6.12 109 13.6 109h108.8c7.48 0 13.6-6.131
+                 13.6-13.625v-3.406a3.413 3.413 0 0 0-3.4-3.406Zm-10.2-78.344C122.4 4.599 117.81 0 
+                 112.2 0H23.8c-5.61 0-10.2 4.598-10.2 10.219V81.75h108.8V10.219Zm-13.6 
+                 57.906H27.2v-54.5h81.6v54.5Z"/>
+              </svg>            
+              <h3>Ремонт ноутбуков</h3>
+              <p>Выполняем весь спектр услуг по ремонту вашего ноутбука</p>
+              <h4>Подробнее</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="upgrade.html">
+            <div class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="125" height="72" fill="none" viewBox="0 0 125 72">
+                <path fill="#fff" d="M67.35 71.48c-3.973 0-7.08-1.107-9.32-3.32s-3.36-5.373-3.36-9.48V43h6.48v15.44c0 
+                2.667.547 4.587 1.64 5.76s2.627 1.76 4.6 1.76c1.973 0 3.507-.587 4.6-1.76 1.093-1.173 1.64-3.093 
+                1.64-5.76V43h6.4v15.68c0 4.107-1.12 7.267-3.36 9.48-2.24 2.213-5.347 3.32-9.32 3.32ZM88.433 
+                71V43h12.12c2.507 0 4.667.413 6.48 1.24 1.814.8 3.214 1.96 4.2 3.48.987 1.52 1.48 3.333 1.48 
+                5.44 0 2.08-.493 3.88-1.48 5.4-.986 1.52-2.386 2.693-4.2 3.52-1.813.8-3.973 1.2-6.48
+                 1.2h-8.52l2.88-2.92V71h-6.48Zm6.48-9.92L92.033 58h8.16c2 0 3.494-.427 4.48-1.28.987-.853 1.48-2.04 
+                 1.48-3.56 0-1.547-.493-2.747-1.48-3.6-.986-.853-2.48-1.28-4.48-1.28h-8.16l2.88-3.08v15.88ZM54.008
+                  39V11h6.48v22.72h14.04V39h-20.52Zm28.626 0-12.08-28h7l10.56 24.8h-4.12L94.714 
+                  11h6.44l-12.12 28h-6.4Zm18.858 0V11h6.48v22.72h14.04V39h-20.52Zm-73.837-1.547L48.9 
+                  58.943c1.468 1.485 1.468 3.887 0 5.356l-3.53 3.571a3.703 3.703 0 0 1-5.296 0L25 
+                  52.653 9.942 67.886a3.703 3.703 0 0 1-5.295 0l-3.546-3.571c-1.468-1.485-1.468-3.887 
+                  0-5.357l21.244-21.49a3.708 3.708 0 0 1 5.31-.015Zm-5.31-30.339L1.1 28.604c-1.468 
+                  1.485-1.468 3.887 0 5.357l3.53 3.57a3.703 3.703 0 0 0 5.296 0L24.984 22.3l15.058 
+                  15.233a3.703 3.703 0 0 0 5.295 0l3.53-3.571c1.469-1.486 1.469-3.888 0-5.357L27.625 
+                  7.114c-1.437-1.485-3.811-1.485-5.28 0Z"/>
+              </svg>
+              <h3>Апгрейд вашей техники</h3>
+              <p>Выполняем весь спектр услуг по улучшению любой техники</p>
+              <h4>Подробнее</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="buy.html">
+            <div class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="112" height="87" fill="none" viewBox="0 0 112 87">
+                <path fill="#fff" d="M111.003 35.46v3.083a4.625 4.625 0 0 1-4.626 4.625h-1.541l-5.032 
+                35.226a9.25 9.25 0 0 1-9.158 7.942h-70.29a9.25 9.25 0 0 1-9.157-7.942L6.167 
+                43.168H4.625A4.625 4.625 0 0 1 0 38.543V35.46a4.625 4.625 0 0 1 4.625-4.625h12.978L38.18 2.54a6.167 
+                6.167 0 0 1 9.974 7.255l-15.302 21.04H78.15L62.847 9.795a6.167 6.167 0 0 1 
+                9.975-7.255L93.4 30.835h12.977a4.625 4.625 0 0 1 4.626 4.625ZM60.126 69.377V47.793a4.625 4.625 
+                0 1 0-9.25 0v21.584a4.625 4.625 0 1 0 9.25 0Zm21.584 0V47.793a4.625 4.625 0 1 0-9.25
+                 0v21.584a4.625 4.625 0 1 0 9.25 0Zm-43.167 0V47.793a4.625 4.625 0 1 0-9.25 0v21.584a4.625 
+                 4.625 0 1 0 9.25 0Z"/>
+              </svg>
+              <h3>Покупка и продажа техники</h3>
+              <p>Выполняем весь спектр услуг по улучшению любой техники</p>
+              <h4>Подробнее</h4>
+            </div>
+          </a>
+        </li>
+       </ul>
+    </div>
+  </section>
+  <section class="otzivi" id="otzv">
+    <h2>Отзывы о нас</h2>
+    <div class="reviw">
+      <ul>
+        <li>
+          <a href="">
+            <div class="comment">
+              <img src="assets/images/avatar.png" alt="">     
+              <h3>Рубанов Дмитрий Владимирович</h3>
+              <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nunc vulputate libero et velit interdum, ac aliquet odio 
+                mattis. Class aptent taciti sociosqu ad litora torquent
+                 per conubia nostra, per inceptos himenaeos. Curabitur
+                  tempus urna at turpis condimentum lobortis. Ut commodo 
+                  efficitur neque. Ut diam quam, semper iaculis 
+                  condimentum ac, vestibulum eu nisl.
+              </p>
+              <ul class="date">
+                <li>Ремонт ПК</li>
+                <li>21.03.2023</li>
+              </ul>
+            </div>
+          </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="comment2">
+            <img src="assets/images/avatar2.png" alt="">               
+            <h3>Рубанов Дмитрий Владимирович</h3>
+            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nunc vulputate libero et velit interdum, ac aliquet odio 
+              mattis. Class aptent taciti sociosqu ad litora torquent
+               per conubia nostra, per inceptos himenaeos. Curabitur
+                tempus urna at turpis condimentum lobortis. Ut commodo 
+                efficitur neque.
+            </p>
+            <ul class="date">
+              <li>Ремонт ПК</li>
+              <li>21.03.2023</li>
+            </ul>
+          </div>
+        </a>
+    </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="">
+            <div class="comment3">
+              <img src="assets/images/avatar3.png" alt="">     
+              <h3>Рубанов Дмитрий Владимирович</h3>
+              <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nunc vulputate libero et velit interdum, ac aliquet odio 
+                mattis. Class aptent taciti sociosqu ad litora torquent
+                 per conubia nostra, per inceptos himenaeos.
+              </p>
+              <ul class="date">
+                <li>Ремонт ПК</li>
+                <li>21.03.2023</li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="comment4">
+              <img src="assets/images/avatar4.png" alt="">               
+              <h3>Рубанов Дмитрий Владимирович</h3>
+              <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nunc vulputate libero et velit interdum, ac aliquet odio 
+                mattis. Class aptent taciti sociosqu ad litora torquent
+                 per conubia nostra, per inceptos himenaeos.
+              </p>
+              <ul class="date">
+                <li>Ремонт ПК</li>
+                <li>21.03.2023</li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="comment5">
+              <img src="assets/images/avatar5.png" alt="">               
+              <h3>Рубанов Дмитрий Владимирович</h3>
+              <p>Horem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nunc vulputate libero et velit interdum, ac aliquet odio 
+                mattis. Class aptent taciti sociosqu ad litora torquent
+                 per conubia nostra, per inceptos himenaeos.
+              </p>
+              <ul class="date">
+                <li>Ремонт ПК</li>
+                <li>21.03.2023</li>
+              </ul>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</section>
+
+<section class="bubls">
+  <section class="swiper" id="pckup">
+    <h2>Готовый ПК в наличии</h2>
+    <div class="slider">
+      <div class="slider-list">
+        <div class="slider-track">
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="blocks">
+              <div class="left"><img src="assets/images/pc3.png" alt=""></div>
+              <div class="right">
+                <h4>Характеристики</h4>
+                <ul class="tegs">
+                  <li>CPU</li>
+                  <li>GPU</li>
+                  <li>MB</li>
+                  <li>RAM</li>
+                </ul>
+                <ul class="names">
+                  <li>AMD Ryzen Threadripper 3990X</li>
+                  <li>NVIDIA GeForce RTX 4090</li>
+                  <li>ASUS ROG ZENITH II EXTREME ALPHA</li>
+                  <li>128GB Kingston Renegade RGB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-arrows">
+        <button type="button" class="prev"></button>
+        <a href="buy.html"><button class="else">Подробнее</button></a>
+        <button type="button" class="next"></button>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+<footer>
+  <section class="about" id="about">
+    <h2>О нас</h2>
+    <div class="ground">
+      <p>Наш центр находится в Оренбурге. Даем гарантию на все услуги 3 года! Множество компаний в нашем городе работают с нами 
+        например: Компьютерный клуб Winstrake, W, CyberX, Diamond.
+        Мы занимаемся профессиональной сборкой компьютеров с учетом требований геймеров, киберспортсменов, графических дизайнеров.
+        Сборки от GenezisPC – это мощные ПК со сбалансированной «начинкой» и оригинальным дизайном корпусов. Мы создаем системы премиум-класса – стильные, 
+        эффективные, высокопроизводительные.
+        В интернет-магазине GenezisPC в продаже сборки компьютеров разных модельных рядов: игровые для геймеров, профессиональные для работы с графикой и 
+        деловые для установки в офисе. Каждую сборку можно кастомизировать под себя через конфигуратор: соберите недорогой, но сбалансированный 
+        ПК или расширьте сборку и создайте супермощного монстра для игр.
+      </p>
+    </div>
+  </section>
+  <div class="mountins">
+    <div class="content">
+      <img src="assets/images/logo.png" alt="">
+      <ul class="navigatr">
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <ul class="socials">
+        <li>
+          <a href="https://vk.com/dabbda" target="_blank">
+            <svg width="65" height="39" viewBox="0 0 65 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M62.7475 2.58666C63.1885 1.09665 62.7475 0 60.6257 0H53.6048C51.8167 0 50.9943 0.941689 
+          50.5532 1.99066C50.5532 1.99066 46.9772 10.7043 41.923 16.3544C40.29 17.9875 39.539 18.5119 38.645 
+          18.5119C38.204 18.5119 37.5245 17.9875 37.5245 16.4974V2.58666C37.5245 0.798647 37.0239 0 35.5458 
+          0H24.5078C23.3873 0 22.7197 0.834408 22.7197 1.60922C22.7197 3.30187 25.2468 3.69524 25.509
+          8.46328V18.8099C25.509 21.0748 25.1038 21.492 24.2098 21.492C21.8257 21.492 16.0326 12.7426 
+          12.5996 2.72971C11.9082 0.786728 11.2287 0 9.42881 0H2.40786C0.405284 0 0 0.941689 0 1.99066C0 
+          3.8502 2.38402 13.0883 11.0976 25.2945C16.9027 33.6266 25.0799 38.1444 32.5181 38.1444C36.9881 
+          38.1444 37.5364 37.1431 37.5364 35.4147C37.5364 27.452 37.1312 26.7011 39.3721 26.7011C40.4092 
+          26.7011 42.1972 27.2255 46.3692 31.2426C51.1373 36.0107 51.924 38.1444 54.5941 38.1444H61.6151C63.6177 
+          38.1444 64.6309 37.1431 64.0468 35.1643C62.7117 31.0042 53.6882 22.4456 53.2829 21.8734C52.2459 20.5384 
+          52.5439 19.9424 53.2829 18.7503C53.2948 18.7384 61.8654 6.67526 62.7475 2.58666Z" fill="white"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/temaa4k" target="_blank">
+            <svg width="46" height="38" viewBox="0 0 46 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M45.8689 3.4594L38.9272 35.7062C38.4035 37.982 37.0378 38.5485 35.097 37.4763L24.5202 
+              29.799L19.4166 34.634C18.8518 35.1903 18.3794 35.6556 17.2909 35.6556L18.0508 25.0449L37.6539 
+              7.59646C38.5062 6.84794 37.4691 6.43322 36.3292 7.18174L12.0949 22.2127L1.66186 18.9961C-0.607534
+               18.2982 -0.64861 16.7607 2.13423 15.6885L42.9423 0.202361C44.8318 -0.495577 46.4851 0.617078 
+               45.8689 3.4594Z" fill="white"/>
+              </svg>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+7 (953) 111-11-11">
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M36.9163 26.8521L28.6037 23.2896C28.2486 23.1382 27.8539 23.1064 27.4791
+               23.1987C27.1043 23.2911 26.7696 23.5027 26.5255 23.8017L22.8442 28.2994C17.0667 
+               25.5754 12.4172 20.9259 9.69314 15.1484L14.1909 11.4671C14.4905 11.2234 14.7025 
+               10.8887 14.7949 10.5137C14.8874 10.1388 14.8551 9.7439 14.703 9.38891L11.1404 
+               1.07626C10.9735 0.693588 10.6783 0.381149 10.3057 0.192818C9.93312 0.00448671
+                9.50648 -0.0479317 9.09938 0.0446013L1.38049 1.82588C0.987994 1.91652 0.637806 
+                2.13752 0.387084 2.45281C0.136361 2.7681 -9.04156e-05 3.15906 4.49492e-08 
+                3.56189C4.49492e-08 22.5993 15.4303 38 34.4381 38C34.8411 38.0003 35.2322 
+                37.8639 35.5476 37.6131C35.8631 37.3624 36.0842 37.0121 36.1748 36.6195L37.9561
+                 28.9006C38.0481 28.4915 37.9945 28.0632 37.8047 27.6893C37.615 27.3154 37.3008 
+                 27.0194 36.9163 26.8521Z" fill="white"/>
+              </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</section>
+
+</body>
+</html>
+<script>
+  $('a[href*="#"]').on('click', function (e) {
+  e.preventDefault();
+ 
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 500, 'linear');
+});
+</script>
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/calc.js"></script>

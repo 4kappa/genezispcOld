@@ -1,0 +1,170 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+html {
+  background: #000;
+    height: fit-content;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.main {
+  width: 100% !important;
+  margin-top:200px;
+  height: 700px;
+  background: linear-gradient(180deg, #04E000 0%, rgba(115, 247, 112, 0.85) 48.96%, rgba(108, 255, 105, 0.69) 100%);
+  box-shadow: 0px 0px 50px 5px rgba(7, 252, 0, 0.2);
+}
+
+
+#form {
+  position: absolute;
+    top: 250px;
+  left: 450px;
+  width:100%;
+}
+
+#form select {
+      border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 600px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(240, 240, 240, 1);
+  outline: none;
+  color: #00FF00;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#form select option{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #00FF00;
+    background-color: #ffffff;
+    border: 3px solid #fff;
+}
+
+#form input {
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 600px;
+  height: 50px;
+  padding: 0px 20px 0px 15px;
+  background-color: rgba(240, 240, 240, 1);
+  outline: none;
+  color: #00FF00;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#form #submit {
+    margin-left: 165px;
+  width: 600px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background: rgba(2, 2, 2, 0.493);
+  color: rgba(240, 240, 240, 1);
+  outline:none;
+  cursor: pointer;
+  border: none;
+}
+
+#submit:hover {
+  color: #00FF00 !important;
+  background: rgba(255, 255, 255, 0.788) !important;
+}
+
+input,
+label {
+    cursor: pointer;
+}
+
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+.form_radio_btn label {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: none;
+  border-radius: 0;
+  user-select: none;
+  color: rgba(240, 240, 240, 0.7);
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+  color: #fff;
+  background-color: rgba(240, 240, 240, 0.3);
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+  color: #fff;
+  background-color: rgba(240, 240, 240, 0.3);
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+  background: #efefef;
+color:#fff;
+}
+
+/* */
+
+form ul li{
+    padding: 5px 5px 20px;
+}
+
+form ul {
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+select:focus {
+    color: #fff;
+}
+

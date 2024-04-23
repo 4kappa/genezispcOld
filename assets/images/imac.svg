@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632" height="516" fill="none" viewBox="0 0 632 516">
+  <path fill="url(#a)" d="M0 449.842h617.976v43.749H0z" opacity=".3" style="mix-blend-mode:multiply"/>
+  <path fill="url(#b)" d="M68.765 0h563.236v480.939H68.765z"/>
+  <path fill="url(#c)" d="M83.995 14.177H616.92v303.045H83.995z"/>
+  <path fill="url(#d)" d="M74.193 495.573h377.451V516H74.193z" opacity=".3" style="mix-blend-mode:multiply"/>
+  <path fill="url(#e)" d="M104.052 489.628h348.045v21.646H104.052z"/>
+  <path fill="url(#f)" d="M477.431 495.421h110.988v18.14H477.431z" opacity=".3" style="mix-blend-mode:multiply"/>
+  <path fill="url(#g)" d="M498.995 481.092h92.289v29.116h-92.289z"/>
+  <defs>
+    <pattern id="a" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#h" transform="scale(.00098 .01389)"/>
+    </pattern>
+    <pattern id="b" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#i" transform="scale(.00107 .00127)"/>
+    </pattern>
+    <pattern id="c" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#j" transform="matrix(.00038 0 0 .00067 -.005 0)"/>
+    </pattern>
+    <pattern id="d" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#k" transform="scale(.0016 .02941)"/>
+    </pattern>
+    <pattern id="e" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#l" transform="scale(.00173 .02778)"/>
+    </pattern>
+    <pattern id="f" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#m" transform="scale(.00543 .03333)"/>
+    </pattern>
+    <pattern id="g" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#n" transform="scale(.00654 .02083)"/>
+    </pattern>
+  </defs>
+</svg>
